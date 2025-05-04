@@ -1,0 +1,3 @@
+query,true_emotion,pred_emotion,emotion_accuracy,emotion_f1,rouge1,rouge2,rougeL,bleu,precision@k
+I've been feeling really afraid about my future.,fear,fear,1.0,1.0,0.1686746987951807,0.15853658536585366,0.1686746987951807,2.75,0.3333333333333333
+Nothing brings me happiness anymore.,sadness,sadness,1.0,1.0,0.23376623376623376,0.22368421052631576,0.23376623376623376,2.263157894736842,0.3333333333333333
