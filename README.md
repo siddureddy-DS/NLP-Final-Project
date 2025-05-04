@@ -1,3 +1,5 @@
+This project implements an Emotion-Aware Retrieval-Augmented Generation (RAG) system designed to generate empathetic, emotionally-aligned responses for users experiencing mental health challenges. The system combines emotion detection, semantic retrieval of support content, and large language model (LLM)-based response generation to produce safe and supportive replies.
+
 We developed an Emotion-Aware RAG system that detects user emotions, retrieves emotionally relevant mental health posts, and generates empathetic replies using lightweight language models like Phi-3 Mini.
 
 By combining retrieval with generation, we ensure safer, contextually grounded responses.
