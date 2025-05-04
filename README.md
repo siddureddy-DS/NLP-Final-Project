@@ -5,3 +5,26 @@ By combining retrieval with generation, we ensure safer, contextually grounded r
 The system was evaluated for emotion detection, retrieval precision, and response quality, achieving strong performance across all metrics.
 
 This project shows how AI can be responsibly applied to support mental health.
+
+
+### 1. Emotion Detection
+- Model: `roberta-base-go_emotions`
+- Output: One of 28 emotion classes (e.g., sadness, fear, optimism)
+- Purpose: Tags input query with dominant emotion for use in retrieval and generation
+
+### 2. Semantic Retrieval
+- Model: `all-MiniLM-L6-v2`
+- Tool: FAISS index for fast similarity search
+- Output: Top-k similar Reddit posts emotionally aligned with user query
+
+### 3. Response Generation
+- Models:
+  - `Phi-3 Mini` (lightweight, empathy-first)
+  - `Falcon-7 B-Instruct` (fluent, but higher hallucination risk)
+- Prompts are generated using the input query, retrieved posts, and emotion tag
+
+### 4. Evaluation
+- Emotion Detection: Accuracy, F1 Score
+- Retrieval: Precision@k
+- Generation: BLEU, ROUGE-1, ROUGE-2, ROUGE-L
+- Qualitative: Human reviews for empathy, hallucination, fluency
