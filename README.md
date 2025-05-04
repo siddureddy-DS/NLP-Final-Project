@@ -30,3 +30,6 @@ This project shows how AI can be responsibly applied to support mental health.
 - Retrieval: Precision@k
 - Generation: BLEU, ROUGE-1, ROUGE-2, ROUGE-L
 - Qualitative: Human reviews for empathy, hallucination, fluency
+
+
+You can run code via Google Colab using the T4 GPU Runtype : https://colab.research.google.com/drive/16MgWIaGyeOPNtsZal3XzTrrtcXbK8fqT?usp=sharing
